@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+.next/
+.cache/
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dataset (600MB+ — download separately, see README)
+data_set/
+
+# Generated data
+data/products/
+data/uploads/*
+!data/uploads/.gitkeep
+data/faiss_index.bin
+data/faiss_metadata.npy
+
+# Coverage
+.coverage
+htmlcov/
+.coverage.*
+
+# MLflow
+mlruns/
+
+# Environment
+.env
+.env.local
